@@ -125,7 +125,7 @@ section {
   font-weight: 500;
 }
 
-.main h2 span {
+.main div .span {
   display: block;
   margin-top: 10px;
   color: black;
