@@ -13,6 +13,10 @@ a {
   color: black;
 }
 
+p {
+    margin: 0;
+}
+
 .scroll {
   display: block;
   position: fixed;
@@ -382,6 +386,7 @@ section {
   padding: 2em;
   display: flex;
   justify-content: space-between;
+align-items: center;
 }
 
 .social-icons {
