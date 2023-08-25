@@ -62,7 +62,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 45px;
+  padding: 10px 0px;
 }
 
 .logo {
@@ -84,6 +84,11 @@ header {
 .navigation a:hover {
   color: #601cfc;
 }
+
+.bg-light {
+    flex: 1;
+}
+
 .js-type-writer {
   font-size: 48px;
   font-family: sans-serif;
@@ -161,7 +166,7 @@ section {
 }
 
 .main-btn:hover {
-  background-color: #0a49f6;
+  background-color: white;
   transform: scale(1.1);
 }
 
@@ -409,7 +414,7 @@ align-items: center;
 
 @media (max-width: 1023px) {
   header {
-    padding: 12px 20px;
+    padding: 12px 0px;
   }
 
   .navigation a {
