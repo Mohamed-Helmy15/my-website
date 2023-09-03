@@ -13,10 +13,6 @@ a {
   color: black;
 }
 
-p {
-    margin: 0;
-}
-
 .scroll {
   display: block;
   position: fixed;
@@ -62,7 +58,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0px;
+  padding: 10px 200px;
 }
 
 .logo {
@@ -84,11 +80,6 @@ header {
 .navigation a:hover {
   color: #601cfc;
 }
-
-.bg-light {
-    flex: 1;
-}
-
 .js-type-writer {
   font-size: 48px;
   font-family: sans-serif;
@@ -166,7 +157,7 @@ section {
 }
 
 .main-btn:hover {
-  background-color: white;
+  background-color: #0a49f6;
   transform: scale(1.1);
 }
 
@@ -318,20 +309,14 @@ section {
   margin-top: 30px;
 }
 
-.project-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(19em, 1fr));
-  gap: 20px;
-}
-
 .project-card {
   background-color: #fff;
   border: 1px solid #fff;
   min-height: 14em;
-  /* width: 19em; */
+  width: 23em;
   overflow: hidden;
   border-radius: 10px;
-  /* margin: 20px; */
+  margin: 20px;
   transition: 0.7s ease;
 }
 
@@ -391,11 +376,6 @@ section {
   padding: 2em;
   display: flex;
   justify-content: space-between;
-align-items: center;
-}
-
-.social-icons {
-    margin: 0 15px;
 }
 
 .footer-title {
@@ -414,7 +394,7 @@ align-items: center;
 
 @media (max-width: 1023px) {
   header {
-    padding: 12px 0px;
+    padding: 12px 20px;
   }
 
   .navigation a {
