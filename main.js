@@ -9,7 +9,7 @@ window.onscroll = function () {
 
   if (
     window.scrollY >= ourSkills.offsetTop - 300 &&
-    window.scrollY <= ourSkills.offsetTop + 600
+    window.scrollY <= ourSkills.offsetTop + 1100
   ) {
     document
       .querySelectorAll(".skills .skills-content span")
