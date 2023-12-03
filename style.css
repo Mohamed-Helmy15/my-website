@@ -190,7 +190,11 @@ section {
   border-radius: 10px;
   padding: 25px;
   margin: 15px;
-  transition: 0.7s ease;
+  transition: 0.7s ease !important;
+  -webkit-transition: 0.7s ease !important;
+  -moz-transition: 0.7s ease !important;
+  -ms-transition: 0.7s ease !important;
+  -o-transition: 0.7s ease !important;
 }
 
 .card:hover {
