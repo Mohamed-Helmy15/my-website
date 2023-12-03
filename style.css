@@ -194,7 +194,11 @@ section {
 }
 
 .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.1) !important;
+  -webkit-transform: scale(1.1) !important;
+  -moz-transform: scale(1.1) !important;
+  -ms-transform: scale(1.1) !important;
+  -o-transform: scale(1.1) !important;
 }
 
 .card .icon {
@@ -321,11 +325,15 @@ section {
 }
 
 .project-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.1) !important;
+  -webkit-transform: scale(1.1) !important;
+  -moz-transform: scale(1.1) !important;
+  -ms-transform: scale(1.1) !important;
+  -o-transform: scale(1.1) !important;
 }
 
 .project-card:hover .project-image {
-  opacity: 0.9;
+  opacity: 0.9 !important;
 }
 
 .project-image img {
