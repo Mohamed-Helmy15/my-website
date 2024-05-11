@@ -13,6 +13,10 @@ a {
   color: black;
 }
 
+ul {
+  list-style: none;
+}
+
 .scroll {
   display: block;
   position: fixed;
@@ -35,8 +39,13 @@ a {
 }
 .in {
   bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
 }
-.scroll::before {
+/* .scroll::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -48,7 +57,7 @@ a {
   border-style: solid;
   border-image: initial;
   border-color: white transparent transparent white;
-}
+} */
 
 header {
   background-color: #f0f0f0;
@@ -240,6 +249,62 @@ section {
 
 .skills {
   background-color: #eee;
+  
+}
+
+.all-skills {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  padding: 20px 90px;
+  gap: 75px;
+}
+.skill {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.skill i {
+
+  font-size: 70px;
+}
+
+i.fab.fa-html5 {
+  color: red;
+}
+
+i.fab.fa-css3-alt {
+  color: blue;
+}
+
+i.fab.fa-js {
+  color: yellow;
+}
+
+i.fab.fa-node {
+  color: #00ad5a;
+}
+
+i.fab.fa-php {
+  color: #6666e3;
+}
+
+i.fab.fa-laravel {
+  color: red;
+}
+
+i.fab.fa-react {
+  color: cornflowerblue;
+}
+
+i.fab.fa-sass {
+  color: pink;
+}
+
+i.fab.fa-java {
+  color: red;
 }
 .skills .skills-content h3 {
   font-size: 30px;
@@ -309,8 +374,39 @@ section {
   }
 }
 
+.work-cont {
+  padding: 10px;
+}
+
+.work-cont p span {
+  font-weight: bold;
+}
+
+.work-cont .work-details li:first-child {
+  margin-left: 20px;
+  font-size: 14px;
+  color: #838383;
+}
+
+.work-details li {
+  margin-left: 35px;
+  list-style: circle;
+}
+
+.present-work {
+  padding: 3px 10px;
+  background: #006ef3;
+  color: white;
+  border-radius: 10px;
+}
+
+ul.work-details {
+  margin-left: 15px;
+}
+
 .projects {
   background-color: #000016;
+  overflow: hidden;
 }
 
 .projects .content {
