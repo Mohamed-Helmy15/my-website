@@ -398,10 +398,13 @@ i.fab.fa-java {
   background: #006ef3;
   color: white;
   border-radius: 10px;
+  display: inline-block;
+  margin: 10px 0;
 }
 
 ul.work-details {
   margin-left: 15px;
+  line-height: 1.8;
 }
 
 .projects {
